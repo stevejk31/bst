@@ -8,5 +8,11 @@ class BinarySearchTree
 
   def delete(value)
   end
-  
+
+  def right_rotate(node)
+  end
+
+  def left_rotat(node)
+  end
+
 end

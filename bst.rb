@@ -1,10 +1,12 @@
+require 'node.rb'
 class BinarySearchTree
   def initialize()
-
+    @head = nil
   end
 
   def add(value)
-    
+    new_node = BinaryNode.new(value)
+    new_node
   end
 
   def delete(value)
@@ -15,7 +17,7 @@ class BinarySearchTree
 
   end
 
-  def left_rotat(node)
+  def left_rotate(node)
 
   end
 
